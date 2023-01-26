@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+logo {
+  
+}
+#btn-ham-menu {
+  background-color: white;
+  border-style: none;
+}
+#btn-ham-menu:hover {
+  cursor: pointer;
+}
+
+/* Article 1 */
+#article1 {
+  padding: 30px;
+}
+#hero-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Article 2 */
+
+/* Article 3 */
+
+
+/* Footer */
+
