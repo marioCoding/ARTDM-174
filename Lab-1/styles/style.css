@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+/@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 * {
@@ -48,7 +48,7 @@ ul {
 #article1 {
   height: 50em;
   padding: 30px;
-  background: url("/Users/mario/VS Code/ARTDM-174/Lab-1/assets/images/IMG_1728.jpg") no-repeat center center fixed; 
+  background: url("/Users/mario/VS%Code/ARTDM-174/Lab-1/assets/images/IMG_1728.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
