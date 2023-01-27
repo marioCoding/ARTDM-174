@@ -40,9 +40,6 @@ nav {
 #btn-ham-menu:hover {
   cursor: pointer;
 }
-ul {
-  list-style: none;
-}
 
 /* Article 1 */
 #article1 {
@@ -55,13 +52,6 @@ ul {
   background-size: cover;
   position: relative;
   color: #fff;
-}
-#hero-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 #art1-title {
   font-size: 40px;
