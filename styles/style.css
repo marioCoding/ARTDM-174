@@ -14,17 +14,14 @@ header {
   align-content: center;
   position: relative;
   height: 100px;
+  flex-direction: row-reverse;
 }
 .title {
-  margin: 0;
-  position: absolute;
-  left: 40%;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
   font-family: 'Courgette', cursive;
   font-size: 30px;
   color: rgb(158, 147, 132);
+  margin: auto;
+  animation: 1s ease-out 0s 1 title-animation;
 }
 nav {
   display: flex;
@@ -70,7 +67,7 @@ a {
   grid-template-columns: 1fr 1fr;
   background-color: antiquewhite;
 }
-.article2-text1, .article2-text2, .article2-text3, .article2-text4 {
+.project1, .project2, .project3, .project4 {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 15px;
@@ -79,15 +76,25 @@ h4 {
   color: rgb(113, 113, 113);
   text-indent: 10px;
 }
+.project1-title:hover, .project2-title:hover,
+.project3-title:hover, .project4-title:hover {
+  cursor: pointer;
+  animation: subtitles-animation 2s ease 0s; 
+} 
 
 /* Article 3 */
 #article3 {
   padding: 30px;
 }
-.article3-text1, .article3-text2, .article3-text3, .article3-text4,
-.article3-text5, .article3-text6, .article3-text7, .article3-text8 {
+.lab1, .lab2, .lab3, .lab4,
+.lab5, .lab6, .lab7, .lab8 {
   margin-top: 12.5px;
   margin-bottom: 20px;
+}
+.lab1-title:hover, .lab2-title:hover, .lab3-title:hover, .lab4-title:hover,
+.lab5-title:hover, .lab6-title:hover, .lab7-title:hover, .lab8-title:hover {
+  cursor: pointer;
+  animation: subtitles-animation 2s ease 0s;
 }
 
 /* Footer */
@@ -95,6 +102,30 @@ footer {
   padding: 75px 30px 75px 30px;
   text-align: center;
   background-color: #daccb9;
+}
+
+/* Animations */ 
+@keyframes subtitles-animation {
+  0% {
+    opacity: .35;
+  }
+  50% {
+    opacity: .7;
+  }
+  100% {
+    opacity: 1;
+    transform: skewX(-25deg);
+  }
+}
+
+@keyframes title-animation {
+  0% {
+    transform: translateX(-100%);
+    color:rgb(68, 68, 121);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @media screen and (min-width: 720px) {
